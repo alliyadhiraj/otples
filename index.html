@@ -10,7 +10,23 @@
 
 <body>
 
-    <div id="otpless"></div>
+<nav id="otp">
+    <div>
+        <h2>
+            Some good job oppertunities in otpless
+        </h2>
+    </div>
+    
+
+    <div>
+        <button>Signup</button>
+        <button>Login</button>
+    </div>
+
+</nav>
+<div id="otpless"></div>
+
+    
 
     <script type="text/javascript" src="https://otpless.com/auth.js"></script>
     <!-- Get user's whatsapp number and name -->
@@ -19,7 +35,12 @@
             var waName = otplessUser.waName;
             var waNumber = otplessUser.waNumber;
             // Signup/signin the user and redirect to next page
+
+            document.getElementById('otpless').innerHTML = `
+            <h2> H1 ${waName} Welcomec ! </h2>`
         }
+
+
     </script>
 </body>
 
