@@ -9,28 +9,47 @@ body{
 
 #otpless{
     position: relative;
-    left: 1100px;
+    left: 590px;
+    top: 250px;
     color: azure;
     
     
 }
-.think{
-    text-align: center;
+.otp{
     color: azure;
+    font-size: larger;
+}
+.image{
+    position: relative;
+    top: 50px;
+}
+.container{
+    position: relative;
+    top: 200px;
 }
 
+.welcome{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.think{
+    color: azure;
+    position: relative;
+    left: 560px;
+}
+.clk{
+    color: blue;
+}
 .btn{
     position: relative;
-    top: 10px;
+    left: 1200px;
+    bottom: 50px;
     padding: 10px;
-    
 }
-.Signup{
-    padding: 5px;
-    margin: 10px;
-}
-
-.Login{
-    padding: 5px;
-    margin: 10px;
+.btn:hover{
+    cursor: pointer;
+    background-color: brown;
 }
